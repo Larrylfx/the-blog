@@ -1,0 +1,48 @@
+<%-include include/header.html%>
+
+<%articles.forEach(function(article,index){%>
+<div class="row" style="float:left;width:25%;margin-left: 10px;">
+    <div class="col-sm-6 col-md-3" style="width:100%;">
+        <div class="thumbnail">
+            <%if(article.poster){%>
+            <img src="<%=article.poster%>" style="height: 200px"  alt="<%=article.title%>" title="<%=article.user.username%> 的博客">
+            <%}%>
+            <div class="caption">
+                <a href="/article/detail/?keyId=<%=article._id%>">
+                    <h3 title="<%=article.title%>"><%=article.title%></h3>
+                </a>
+                <p><%-article.content%></p>
+                <!--<a href="#">-->
+                    <!--<img class="media-object" src="<%=article.user.avatar%>" alt="<%=article.title%>" title="<%=article.user.username%>">-->
+                <!--</a>-->
+                <span>作者:<%=article.user.username%></span>
+                </br>
+                <span>发布时间:<%=article.createDate.toLocaleString()%></span>
+            </div>
+        </div>
+    </div>
+</div>
+<%})%>
+
+<!--显示分页-->
+<div style="position: fixed;bottom: 0;left: 46%;">
+<nav>
+    <ul class="pagination">
+        <li>
+            <a href="/?keyword=<%=keyword%>&pageNum=<%=(pageNum>1?pageNum-1:1)%>&pageSize=<%=pageSize%>" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        <%for(var i=1; i<=totalPage; i++){%>
+            <li class="<%=(i==pageNum?'active':'')%>"><a href="/?keyword=<%=keyword%>&pageNum=<%=i%>&pageSize=<%=pageSize%>"><%=i%></a></li>
+        <%}%>
+        <li>
+            <a href="/?keyword=<%=keyword%>&pageNum=<%=(pageNum<totalPage?pageNum+1:totalPage)%>&pageSize=<%=pageSize%>" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+</div>
+
+<%-include include/footer.html%>

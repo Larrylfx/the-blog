@@ -1,0 +1,34 @@
+<%-include ../include/header.html%>
+
+
+
+<div style="">
+    <h3 style="text-align: center;font-weight: bold;color: lightcoral;"><%=article.title%></h3>
+    <b style="float: right;font-weight: bold;color: red;margin-right: 20px;">作者:<%=articleUser.username%></b>
+    <article style="text-indent: 2em;padding-top:5px;height: 300px;border:1px solid lightcoral;border-radius: 10px">
+        <%=article.content%>
+    </article>
+    <%if (article.poster){%>
+    <img src="<%=article.poster%>" alt=""
+         style="text-indent: 2em;padding-top:5px;width: 1140px;height: 300px;border:1px solid lightcoral;border-radius: 10px ;margin-top: 10px"/>
+    <%}%>
+
+    <% if (sessionUser == (articleUser.username)){ %>
+    <div id="footer" style="margin-top: 20px">
+        <a href="/article/edit/?keyId=<%=article._id%>" type="button" class="btn btn-info">修改</a>
+        <a href="/article/remove/?keyId=<%=article._id%>" type="button" class="btn btn-danger">删除</a>
+        <center style="margin-top: 10px">联系本主:<a href="#"><%=articleUser.username%></a></center>
+    </div>
+
+    <%}%>
+
+</div>
+
+
+<%-include ../include/footer.html%>
+
+<script>
+
+    console.log(user)
+
+</script>
