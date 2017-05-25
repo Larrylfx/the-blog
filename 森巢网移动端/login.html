@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+	<!--<meta content="telephone-no" name="format-detection">
+	<meta content="email=no" name="format-detection">-->
+	<title>森巢网</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+	<!--公用头部-->
+	<header class="header">
+		<a class="btn-left" onclick="history.go(-1)"></a> 
+		<input type="text" class="text-input" placeholder="请输入关键词！">	
+		<input type="submit" value="" class="btn-sub" />
+	</header>
+	<!--主要头部-->
+	<section class="main-content">
+		<div class="user-login">
+			<img src="images/logo.png" class="logo" />
+			<form id="memberform">
+				<input type="hidden" name="gotourl" value="">		
+				<ul>
+					<span id="stuname"></span>
+					<li>
+						<span class="span-reglogtitle">账&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号:</span>
+						<input id="username"type="text" placeholder="请输入手机号"></li>
+					<li>
+						<span class="span-reglogtitle">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码:</span>
+						<input id="password" type="password" placeholder="请输入密码"></li>
+					<li>
+						<a class="btn_sumita" id="btn_sumita">立即登录</a>
+					</li>
+					<li class="find-pwd">
+						<a href="/member/index/findpwd.html">忘记密码?</a>
+					</li>
+					<li>
+						<a class="btn-register" href="/member/index/register.html">立即注册</a>
+					</li>
+				</ul>
+			</form>
+		</div>
+	</section>
+	
+	<!--公用底部-->
+	<footer id="footer" >
+		<div class="footer">
+			<ul class="footer-nav">
+				<a href="index.html" >
+					<li> <i class="home"></i>
+						<span>森巢</span>
+					</li>
+				</a>
+				<a href="classify.html">
+					<li> <i class="category"></i>
+						<span>分类</span>
+					</li>
+				</a>
+				<a href="cart.html">
+					<li>
+						<i class="cartgoods"></i>
+						<span>购物车</span>
+					</li>
+				</a>
+				<a href="login.html" class="active">
+					<li>
+						<i class="i"></i>
+						<span>我的</span>
+					</li>
+				</a>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>

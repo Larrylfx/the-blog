@@ -1,0 +1,234 @@
+.goods-title {
+	display: block;
+	line-height: 26px;
+	font-weight: normal;
+	font-size: 14px;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	text-indent: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.commondity-price {
+	padding: 10px 15px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ddd;
+}
+
+.market-price {
+	display: block;
+	font-size: 14px;
+	color: #666;
+	text-decoration: line-through;
+}
+
+.prices {
+	display: block;
+	height: 30px;
+	margin-top: 10px;
+	font-weight: bold;
+	line-height: 30px;
+	font-size: 14px;
+	color: #333;
+}
+.prices span {
+	font-size: 22px;
+	color: #f20000;		
+}
+
+.specs-content{
+	width: 100%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.specs-content p{
+    font-weight: normal;
+    font-size: 14px;
+    color: #666;
+}
+.specs-content .specs-list{
+	width: 100%;
+	margin: 15px;
+	overflow: hidden;
+}
+.specs-content .specs-list  li{
+	float: left;
+	padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.commondity-number .number{
+    width: 20%;
+    line-height: 28px;
+    float: left;
+    overflow: hidden;
+    margin-left: 5%;
+    font-size: 14px;
+}
+.commondity-number .change-inputnum{
+    width: 73%;
+    overflow: hidden;
+    float: left;
+}
+.change-inputnum .btn-left {
+    display: block;
+    float: left;
+    width: 35px;
+    height: 28px;
+    margin-left: 4px;
+    background: url(../images/btn_bg.png) no-repeat 7px -44px;
+    border: 1px solid #ddd;
+    border-right: none;
+    background-size: 120px 430px;
+}
+.change-inputnum #J_numberInput {
+    display: block;
+    float: left;
+    width: 50px;
+    border: 1px solid #ddd;
+    height: 26px;
+    line-height: 26px;
+    font-family: 'Microsoft YaHei';
+    color: #333;
+    text-align: center;
+}
+.change-inputnum .btn-right {
+    display: block;
+    float: left;
+    width: 35px;
+    height: 28px;
+    border: 1px solid #ddd;
+    border-left: none;
+    background: url(../images/btn_bg.png) no-repeat 7px -70px;
+    background-size: 120px 300px;
+}
+.change-inputnum .stock {
+    float: left;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.advert-picture {
+	display: block;
+	width: 98%;
+	margin: 10px auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.advert-picture img {
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.btn-show-goodinfo {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 4px;
+	font-size: 15px;
+	color: #fff;
+	margin: 5%;
+	text-align: center;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#008413), to(#01580e));
+	overflow: hidden;
+}
+
+.commodity-picture-list {
+	display: block;
+	width: 100%;
+}
+
+.commodity-picture-list img {
+	display: block;
+	width: 100%;
+}
+
+
+/*底部*/
+
+.footer a {
+	display: block;
+	height: 45px;
+	float: left;
+	line-height: 45px;
+	font-size: 1.1em;
+	color: #fff;
+}
+
+.footer a.btn-tel {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin-left: 10%;
+	margin-top: 8px;
+	background: url(../images/commodityDetail/btn_tel.png) no-repeat;
+	background-size: 24px 48px;
+}
+
+.footer a.btn-msg {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin-left: 10%;
+	margin-top: 10px;
+	background: url(../images/commodityDetail/btn_tel.png) no-repeat 0 -24px;
+	background-size: 24px 48px;
+}
+
+.footer a.btn-mycart {
+	display: block;
+	position: relative;
+	width: 20%;
+	float: left;
+	height: auto;
+	padding-top: 32px;
+	float: left;
+	margin-left: 12%;
+	background: url(../images/commodityDetail/cartbtn.png) no-repeat 0 6px;
+	background-size: 22px 18px;
+	font-size: 0.8em;
+	line-height: 0
+}
+
+.footer a.btn-mycart #cartnums {
+	display: block;
+	height: 18px;
+	background: #f20000;
+	border-radius: 20px;
+	color: #fff;
+	position: absolute;
+	z-index: 999;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	top: -3px;
+	padding: 0 3px;
+	left: 10px;
+}
+
+.footer a.btn-addcart {
+	display: block;
+	width: 30%;
+	background: #f20000;
+	font-family: 'Microsoft YaHei';
+	font-size: 16px;
+	float: right;
+	text-align: center;
+}
+
+.footer a.btn-no-addcart {
+	display: block;
+	display: none;
+	width: 30%;
+	background: #666;
+	font-family: 'Microsoft YaHei';
+	font-size: 16px;
+	float: right;
+	text-align: center;
+}

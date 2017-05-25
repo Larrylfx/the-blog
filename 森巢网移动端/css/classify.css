@@ -1,0 +1,106 @@
+.main-content {
+	background: #fff;
+	margin:0 auto;
+}
+
+.main-content .left-cate {
+	display: block;
+	width: 30%;
+	float: left;
+	overflow: auto
+}
+
+.main-content .left-cate ul li {
+	display: block;
+	height: 45px;
+	background: #eee;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	font-size: 1.2em;
+	padding-left: 10px;
+	line-height: 45px;
+	cursor: pointer;
+}
+
+.main-content .left-cate ul li:nth-child(14),.left-cate ul li:nth-child(11),.left-cate ul li:nth-child(12),.left-cate ul li:nth-child(8) {
+	line-height: 22px;
+}
+.main-content .left-cate ul li.cur {
+	background: #fff;
+	border-right: 1px solid #fff;
+	color: #ff3b3b
+}
+.main-content .right-goods {
+	display: block;
+	width: 70%;
+	float: right;
+	background: #fff;
+	overflow: auto;
+}
+
+.main-content .right-goods .common-list {
+	margin-top: 10px;
+	display: none;
+}
+.main-content .right-goods .common-list:first-child {
+	display: block;
+}
+
+.main-content .right-goods .common-list ul li {
+	display: block;
+	width: 31%;
+	background: #fff;
+	float: left;
+	margin-left: 2%;
+	margin-bottom: 10px;
+}
+.main-content .right-goods .common-list ul li:nth-child(3n+0){margin-left: 0;}
+.main-content .right-goods .common-list ul li a{
+	min-width: 68px;
+	max-width: 130px;
+	min-height: 68px;
+	max-height: 130px;
+	display: block;
+	text-align: center;
+	margin:0 auto;
+}
+.main-content .right-goods .common-list ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;
+}
+.main-content .right-goods .common-list h1.title {
+	display: block;
+	clear: both;
+	padding-left: 12px;
+	padding-top: 20px;
+	height: 30px;
+	font-weight: normal;
+	line-height: 30px;
+	font-size: 14px;
+	color: #333
+}
+.main-content .right-goods .common-list .finish-style{
+	width: 100%;
+    padding: 0px 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.main-content .right-goods .common-list .finish-style a{
+	display: block;
+	float: left;
+	width: 31%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-left: 2%;
+    margin-bottom: 10px;
+}
+.main-content .right-goods .common-list .finish-style a:nth-child(3n+0){
+	margin-left: 2%;
+}

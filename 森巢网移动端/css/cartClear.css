@@ -1,0 +1,33 @@
+ .commodityList-back{background: #f0f2f5;} .user-info{width: 100%; position: relative; top: 0; background-color: #fff; padding: 14px 13px 12px 10px;} .user-relation-way{padding: 0 0 10px 0; overflow: hidden; color: #252525;} .user-relation-way span:nth-child(1){float: left; font-size: 16px; color: #252525; font-weight: bold; margin-left: 23px;} .user-relation-way span:nth-child(2){float: left; font-size: 16px; font-weight: bold; margin-left: 20px;} .user-address{font-size: 14px; color: #232326; line-height: 22px; position: relative; padding-right: 30px; padding-left: 23px;} .location-pic{background: url(../images/check-sprites-5.png) no-repeat; background-position: -40px 0; background-size: 100px 100px; width: 12px; height: 14px; position: absolute; top: 4px; left: 0;}
+.user-info .s1-borderB{position: absolute; bottom: 1px; left: 0; height: 3px; width: 100%; background: url(../images/location-border.png) repeat-x; background-size: 80px 4px;}
+.good-info{background: #fff;overflow: hidden;}
+.s-item{position: relative; padding: 18px 28px; line-height: 1.2em; overflow: hidden; box-sizing: border-box;}
+.sitem-l{width:50px; height: 71px; padding-left: 0; padding-right: 2.5%; float: left; text-align: center; overflow: hidden;}
+.sitem-l p{font-size: 12px; display: block; height: 12px; color: #848689; width: 50px; text-align: center; margin-top: 6px;}
+.sitem-l img{max-width: 100%;}
+.sitem-r{float: right; font-size: 14px; margin-top: 25px; color: #252525;}
+.delivery-content{border-top: 1px solid #e0e0e0; background-color: #fff; padding:20px 15px; padding-bottom: 10px; box-sizing: border-box; overflow: hidden;}
+.delivery-way{overflow: hidden;}
+.delivery-way span{color: #262629; font-size:14px; float: left;}
+.delivery-way .right-way{float: right; font-size: 14px; color: #232326; overflow: hidden; min-height: 22px; text-align: right;}
+.delivery-time-text{clear: both; font-size: 12px; color: #848689; text-align: right; line-height: 24px;}
+.small-goods-deliver{padding: 0 17px 0 0;}
+.delivery-way .small-goods-deliver-time{font-size: 12px; line-height: 17px; color: #232326; float: right; position: relative; text-align: right; line-height: 24px;}
+.delivery-way .small-goods-deliver-time .clock-pic{background: url(../images/check-sprites-5.png) no-repeat; background-size: 100px 100px; position: absolute; width: 15px; height: 15px; background-position: -58px 0; top: 5px; left: -22px;}
+.coupon-list{padding-left: 15px;background: #fff;box-sizing: border-box;margin-top:10px;}
+.coupon-content{font-size:14px; padding: 18px 28px 18px 0; color: #262629; border-bottom: 1px solid #f1f1f1; overflow: hidden;}
+.coupon-content span:nth-child(1){float: left;}
+.borderNone{border:none;}
+.coupon-content span:nth-child(2){float: right;font-size:12px;}
+.good-price-content{overflow: hidden; background-color: #fff; padding-left: 12px; padding: 15px 20px; margin-bottom:5px; margin-top: 10px;}
+.good-price{padding-bottom:5px; line-height: 20px; font-size:15px; color: #262629; overflow: hidden;}
+.good-price span:nth-child(1){float: left;}
+.good-price span:nth-child(2){float: right; font-size: 14px; color: #f23030;}
+.good-price i{font-size: 12px; color: #848689; display: inline-block; position: relative; bottom: 1px; left: 1px; font-style: normal;}
+.paddingNone{padding-bottom: 0}
+/*底部结算*/
+.footer-clear{position: fixed; bottom: 0; left: 0; width: 100%; height: 50px; line-height: 50px; background: #fff;}
+.all-price{float: right; font-size:14px; font-weight: 400; margin-right: 20px; color: #f23030;}
+.all-price span{font-size: 18px;}
+.all-price i{font-size:12px;font-style: normal;}
+.go-clear{float: right; width: 98px; height: 100%; text-align: center; background: #f23030; color: #fff; font-size: 16px;}

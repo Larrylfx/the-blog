@@ -1,0 +1,112 @@
+.commodityList-back {
+	background-color: #f7f7f7;
+}
+.order-list {
+	display: block;
+	height: auto;
+	width: 96%;
+	overflow: hidden;
+	margin: 10px auto 0
+}
+
+.order-list span {
+	display: block;
+	width: 32%;
+	height: 35px;
+	font-size: 14px;
+	background: #666;
+	border-radius: 3px;
+	line-height: 35px;
+	color: #fff;
+	float: left;
+	text-align: center;
+	/*margin: 0 1%;*/
+	margin-left:2%;
+}
+.order-list span:first-child{
+	margin-left: 0;
+}
+.order-list span.desc {
+	background-image: url(../images/commodityList/desc.png);
+	background-repeat: no-repeat;
+	background-position: 90% 7px;
+	background-size: 20px 20px
+}
+
+.order-list span.asc {
+	background-image: url(../images/commodityList/asc.png);
+	background-repeat: no-repeat;
+	background-position: 90% 7px;
+	background-size: 20px 20px
+}
+
+.order-list span.active {
+	background-color: #ff495c;
+	color: #fff;
+}
+/*产品列表展示goodslist*/
+.commodity-warp{
+	padding-bottom: 45px;
+	overflow: hidden;
+}
+.commodity-list{
+	width: 100%;
+	overflow: hidden;
+}
+.commodity-list li{
+    display: block;
+    border-bottom: 1px solid #ddd;
+    padding:10px 10px;
+    box-sizing: border-box;
+    overflow: hidden;   
+}
+.left-picture{
+	width: 25%;
+	max-height: 104px;
+	background: #fff;
+	float: left;
+}
+.left-picture img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+.right-info{
+	width: 75%;
+	float: left;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.right-info span{display: block;}
+.right-info .commodity-title{
+    line-height: 20px;
+    font-size: 14px;
+    margin-top: -4px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.right-info .market-price{
+    font-size: 12px;
+    color: #666;
+    text-decoration: line-through;
+    line-height: 20px;
+}
+.right-info .sc-price{
+	font-size: 16px;
+    color: #f20000;
+    line-height: 24px;
+}
+#J_loadingData{
+    text-align: center;
+    line-height: 24px;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #000;
+    overflow: hidden;
+    display: none;
+}

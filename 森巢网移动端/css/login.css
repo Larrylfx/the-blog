@@ -1,0 +1,176 @@
+.main-content{background: #fff;}
+.user-login {
+	display: block;
+	height: auto;
+	min-width: 300px;
+	max-width: 640px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.user-login .logo {
+	display: block;
+	width: 60%;
+	margin: 20px auto 0;
+}
+
+
+.user-login ul {
+	display: block;
+	width: auto;
+	margin-top: 10px;
+}
+
+.user-login ul li {
+	height: auto;
+	overflow: hidden;
+	font-size: 16px;
+	font-family: 微软雅黑;
+}
+
+.user-login ul li input {
+	display: block;
+	font-family: 'Microsoft YaHei';
+	height: 40px;
+	width: 90%;
+	padding-left: 5px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	color: #666;
+	margin: 5px auto;
+	line-height: 40px;
+}
+
+.user-login ul li input:focus {
+	border: 1px solid #d20000;
+}
+
+.user-login ul li select {
+	height: 30px;
+	width: 120px;
+	margin-left: 10px;
+}
+
+.user-login ul li input#telcode,
+.user-login ul li input#imgcode {
+	float: left;
+	width: 50%;
+}
+
+.user-login ul li input#btn_getcode {
+	float: right;
+	width: 40%;
+}
+
+.user-login ul li .tel-code {
+	margin: 0 1em;
+}
+
+.user-login ul li .checktonyixiey {
+	width: auto;
+	height: auto;
+	margin-top: 5px;
+}
+
+.user-login ul li .code {
+	margin-right: 10px;
+}
+
+.user-login ul li .btn_sumita {
+	display: block;
+	height: 40px;
+	text-align: center;
+	background: #d20000;
+	color: #fff;
+	line-height: 40px;
+	width: 90%;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.user-login ul li a#btn_sumitaregnoty {
+	display: block;
+	display: none
+}
+
+.user-login ul li h1 {
+	font-size: 18px;
+	line-height: 45px;
+	height: 45px;
+	background: #70b040;
+	margin-right: 60px;
+}
+
+.user-login ul li h1 a {
+	color: #fff;
+}
+
+.user-login ul li span .yzm {
+	width: 110px;
+	height: 35px;
+	display: inline;
+}
+
+.user-login ul li span h2 {
+	line-height: 45px;
+	font-size: 16px;
+	margin: 0 20px;
+}
+
+.user-login ul li .button {
+	display: block;
+	width: 95%;
+	font-family: 'Microsoft YaHei';
+	margin: 10px auto;
+	font-size: 16px;
+	color: #fff;
+	border: 0;
+	height: 40px;
+	background: #ff6600
+}
+
+.user-login ul li span h2 a {
+	color: #F00;
+}
+
+.user-login ul li .span-reglogtitle {
+	display: block;
+	clear: both;
+	float: none;
+	width: 90%;
+	font-size: 14px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.user-login ul li .btn-register {
+	display: block;
+	width: 90%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #ff6000;
+	color: #fff;
+	margin: 20px auto 0
+}
+
+.user-login ul li.reg-xiyi {
+	display: block;
+	width: 90%;
+	margin: 10px;
+	auto;
+}
+
+.user-login ul li.reg-xiyi .checktonyixiey {
+	display: inline;
+	float: left;
+	width: auto;
+	margin: 0;
+	margin-top: 0;
+}
+
+.user-login ul li.find-pwd a {
+	float: right;
+	margin-right: 5%;
+	margin-top: 20px;
+}

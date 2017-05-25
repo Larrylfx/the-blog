@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+		<title>森巢网</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/commodityDetail.css">
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	</head>
+	<body class="commodityList-back">
+		<!--公用头部-->
+		<header class="header">
+			<span class="sp-back" onclick="history.go(-1)"></span>
+			<span class="title">商品详情</span>
+			<span class="sp-right"></span>
+		</header>
+		 <!--主要内容-->
+		<section class="main-content">
+			<!--轮播-->
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="images/index/1488016747-1676319493.jpg" /></div>
+					<div class="swiper-slide"><img src="images/index/1488350938-1879339224.jpg" /></div>
+					<div class="swiper-slide"><img src="images/index/1488248319-623813167.jpg" /></div>
+					<div class="swiper-slide"><img src="images/index/1488191264-1488305946.jpg" /></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+			<h2 class="goods-title">【迪那沙发】G-12# 实木真皮沙发  涡卷纹扶手欧式沙发 实木沙发 真皮贵族风格沙发</h2>
+			<div class="commondity-price">
+				<div class="market-price">市场价：62800.00</div>
+				<div class="prices">森巢价：<span>&yen;51900.00</span></div>
+			</div>
+			<!--规格和商品-->
+			<div class="specs-content">
+				<p>请选择规格</p>
+				<ul class="specs-list">
+					<li>2000*1800床（不含床头柜）</li>
+					<li>8016#床头柜</li>
+					<li>2000*1500床（不含床头柜）</li>
+				</ul>
+				<div class="commondity-number">
+					<span class="number">数量</span>
+					<div class="change-inputnum">
+				  		<a href="javascript:;" class="btn-left"></a>
+				  		<input type="text" id="J_numberInput" value="1">
+				  		<a href="javascript:;" class="btn-right"></a>
+				  		<span class="stock" id="kuncun">(库存：<font>500</font>)</span>
+					</div>
+				</div>
+			</div>
+			<div class="advert-picture"><img src="images/commodityDetail/wap_kuangh.jpg"></div>
+			<div class="btn-show-goodinfo shoucang">收藏产品</div>
+			<div class="commodity-picture-list">
+				<img src="images/commodityDetail/1446712582-2130714666.jpg" />
+				<img src="images/commodityDetail/1446712586-1561533285.jpg" />
+				<img src="images/commodityDetail/1446712587-1520659481.jpg" />
+				<img src="images/commodityDetail/1446712591-2054592141.jpg" />
+				<img src="images/commodityDetail/1446712592-1326495669.jpg" />
+				<img src="images/commodityDetail/1446712594-343314127.jpg" />
+				<img src="images/commodityDetail/info_01.jpg" />
+				<img src="images/commodityDetail/info_02.jpg" />
+			</div>
+		</section>
+		<!--公用底部-->
+		<footer>
+			<div class="footer">
+				<a href="tel:13893425943" class="btn-tel"></a>
+				<a href="sms:13893425943" class="btn-msg"></a>
+				<a href="/home/cart/accountcart.html" class="btn-mycart">
+					购物车
+					<span id="cartnums">0</span>
+				</a>
+				<a href="cart.html" onclick="addtocart();" class="btn-addcart">加入购物车</a>
+			</div>
+		</footer>
+	</body>
+
+</html>
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript">
+	var mySwiper = new Swiper('.swiper-container', {
+		pagination: '.swiper-pagination',
+		loop: true,
+		autoplay: 3000,
+		paginationHide: true,
+		paginationClickable: true,
+	})
+</script>

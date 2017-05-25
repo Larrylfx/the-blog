@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+	<title>森巢网</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<style type="text/css">
+        .order-bar{font-size: 14px;line-height: 40px;height: 41px;padding: 0 10px;border-bottom: 1px solid #e0e0e0;background-color: #fff;}
+        .pay-tip{color: #686868;}
+        .pay-total{color: #f15353;float: right;}
+        .JS-pay-total{font-size: 17px;}
+        .JS-pay-total em{font-size: 13px;font-style: normal;}
+        .pay-way-list{padding-left: 10px;box-sizing: border-box;border-bottom: 1px solid #e0e0e0;}
+        .pay-way-list li{height: 55px;line-height: 55px;border-bottom: 1px solid #e0e0e0;overflow: hidden;}
+        .pay-way-list .pay-icon{background-position: 0 -70px;background-image: url(images/payWay.png);background-repeat: no-repeat;background-size: 100%;float: left;width: 35px;height: 35px;margin: 10px 10px 0 0;}
+        .title-main{font-size: 15px;color: #232626;margin-top: 10px;line-height: 15px;}
+        .pay-introduce{float: left;}
+        .pay-introduce p:nth-child(1){font-size: 15px;color: #232626;margin-top: 10px;line-height: 15px;}
+        .pay-introduce p:nth-child(2){font-size: 12px;color: #f15353;line-height: 24px;}
+        .pay-way-list .weixin-pay{background-position: 0 -140px;}
+        .pay-way-list .pay-quick{background-position: 0 -105px;}
+        .pay-way-list .pay-union{background-position: 0 -210px;}
+        .borderNone{border-bottom: none !important;}
+    </style>
+
+</head>
+<body  class="commodityList-back">
+    <!--头部-->
+	<header>
+        <div class="header">
+            <span class="sp-back" onclick="history.go(-1)"></span>
+            <span class="title">森巢收银台</span>
+        </div>
+	</header>
+    <!--结算列表-->
+	<section class="main-content commodityList-back">
+	   <div class="order-bar">
+            <span class="JS-pay-tip pay-tip">订单金额</span>
+            <span class="pay-total">
+                <strong class="JS-pay-total">29599<em>.00元</em></strong>
+            </span>
+        </div>
+        <ul class="pay-way-list">
+            <li>
+                <span class="pay-icon"></span>
+                <div class="pay-introduce">
+                    <p>京东支付</p>
+                    <p>随机立减最高999元</p>
+                </div>
+            </li>
+            <li>
+                <span class="pay-icon weixin-pay"></span>
+                <div class="pay-introduce">
+                    <p>微信支付</p>
+                    <p>随机立减最高999元</p>
+                </div>
+            </li>
+            <li>
+                <span class="pay-icon pay-union"></span>
+                <div class="pay-introduce">
+                    <p>银联衣服</p>
+                    <p>随机立减最高999元</p>
+                </div>
+            </li>
+            <li class="borderNone">
+                <span class="pay-icon pay-quick"></span>
+                <div class="pay-introduce">
+                    <p>快捷支付</p>
+                    <p>随机立减最高999元</p>
+                </div>
+            </li>
+        </ul>
+	</section>
+</body>
+</html>
+<script type="text/javascript" src="js/zepto.min.js"></script>
